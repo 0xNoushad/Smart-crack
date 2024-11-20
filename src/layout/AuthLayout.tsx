@@ -1,17 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
-import {
-  Alert,
-  Anchor,
-  Center,
-  Container,
-  LoadingOverlay,
-  MantineProvider,
-  Text,
-} from "@mantine/core";
+import { Anchor, Center, Container, LoadingOverlay, MantineProvider, Text } from "@mantine/core";
 import styled, { ThemeProvider } from "styled-components";
-import { FaInfoCircle } from "react-icons/fa";
 import { lightTheme } from "src/constants/theme";
 import { JSONCrackLogo } from "src/layout/JsonCrackLogo";
 
@@ -100,7 +91,7 @@ export const AuthLayout = ({ children }: React.PropsWithChildren) => {
             <Center mb="xl">
               <JSONCrackLogo fontSize="1.5rem" />
             </Center>
-             
+
             <StyledPaper>
               {children}
               <Loading />

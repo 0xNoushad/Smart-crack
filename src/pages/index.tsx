@@ -29,7 +29,7 @@ export const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) 
 export default HomePage;
 
 export const getStaticProps = (async () => {
-  const res = await fetch("https://api.github.com/repos/AykutSarac/jsoncrack.com");
+  const res = await fetch("#");
   const data = await res.json();
 
   return {

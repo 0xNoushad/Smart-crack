@@ -1,38 +1,14 @@
 import React from "react";
-import { Button, Container, Flex, Text, Image } from "@mantine/core";
-import styled from "styled-components";
-import CountUp from "react-countup";
-import { FaGithub, FaHackerNews, FaLinkedin, FaProductHunt, FaXTwitter } from "react-icons/fa6";
+import { Button, Container, Flex } from "@mantine/core";
+import { FaXTwitter } from "react-icons/fa6";
 
 interface LovedByProps {
   stars: number;
 }
 
-const StyledFeaturedItem = styled.a`
-  display: flex;
-  gap: 6px;
-  align-items: center;
-  white-space: nowrap;
-  filter: grayscale(1) contrast(0.2);
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: none;
-  }
-`;
-
-const Featured = ({ stars }: LovedByProps) => {
-  return (
-    <Flex align="center" justify="center" gap="lg" wrap="wrap">
-     
-    </Flex>
-  );
-};
-
-export const LovedBy = ({ stars }: LovedByProps) => {
+export const LovedBy = ({}: LovedByProps) => {
   return (
     <Container pos="relative" mx="auto" py={80}>
-      
       <Flex wrap="wrap" justify="center" gap="md" mt="md">
         <Button
           component="a"
@@ -44,8 +20,6 @@ export const LovedBy = ({ stars }: LovedByProps) => {
         >
           Share on X
         </Button>
-        
-        
       </Flex>
     </Container>
   );

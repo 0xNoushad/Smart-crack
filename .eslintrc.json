@@ -7,10 +7,11 @@
     "prettier/prettier": "error",
     "space-in-parens": "error",
     "no-empty": "error",
+    "linebreak-style": ["error", "unix"],
     "no-multiple-empty-lines": "error",
     "no-irregular-whitespace": "error",
     "strict": ["error", "never"],
-    "linebreak-style": ["error", "unix"],
+   
     "quotes": ["error", "double", { "avoidEscape": true }],
     "semi": ["error", "always"],
     "prefer-const": "error",

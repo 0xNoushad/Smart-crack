@@ -13,14 +13,9 @@ export const Footer = () => {
       <Flex justify="space-between">
         <Stack gap={4} visibleFrom="sm">
           <JSONCrackLogo />
-          
         </Stack>
         <Flex gap={60} visibleFrom="sm">
-          <Stack gap="xs">
-            
-           
-            
-          </Stack>
+          <Stack gap="xs"></Stack>
           <Stack gap="xs">
             <Text fz="sm" c="white">
               Resources
@@ -37,12 +32,7 @@ export const Footer = () => {
               Social
             </Text>
             <Flex gap="xs">
-              <Anchor
-                aria-label="LinkedIn"
-                href="#"
-                fz="sm"
-                rel="noopener"
-              >
+              <Anchor aria-label="LinkedIn" href="#" fz="sm" rel="noopener">
                 <ThemeIcon variant="transparent" color="gray.5">
                   <FaLinkedin size={20} />
                 </ThemeIcon>
@@ -52,22 +42,12 @@ export const Footer = () => {
                   <FaXTwitter size={20} />
                 </ThemeIcon>
               </Anchor>
-              <Anchor
-                aria-label="GitHub"
-                href="#"
-                fz="sm"
-                rel="noopener"
-              >
+              <Anchor aria-label="GitHub" href="#" fz="sm" rel="noopener">
                 <ThemeIcon variant="transparent" color="gray.5">
                   <FaGithub size={20} />
                 </ThemeIcon>
               </Anchor>
-              <Anchor
-                aria-label="Discord"
-                fz="sm"
-                href="#"
-                rel="noopener"
-              >
+              <Anchor aria-label="Discord" fz="sm" href="#" rel="noopener">
                 <ThemeIcon variant="transparent" color="gray.5">
                   <FaDiscord size={20} />
                 </ThemeIcon>

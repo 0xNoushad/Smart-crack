@@ -36,7 +36,7 @@ const TextEditor = () => {
       ...(jsonSchema && {
         schemas: [
           {
-            uri: "http://myserver/foo-schema.json",
+            uri: "#",
             fileMatch: ["*"],
             schema: jsonSchema,
           },

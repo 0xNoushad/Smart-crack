@@ -1,21 +1,11 @@
 import React from "react";
-import Link from "next/link";
-import { Button, Menu, type MenuItemProps, Text, Stack } from "@mantine/core";
+import { Button, Menu } from "@mantine/core";
 import styled from "styled-components";
-import { LuChevronDown } from "react-icons/lu";
 import { JSONCrackLogo } from "./JsonCrackLogo";
 
 const StyledNavbarWrapper = styled.div`
   z-index: 3;
   transition: background 0.2s ease-in-out;
-`;
-
-const StyledMenuItem = styled(Menu.Item)<MenuItemProps & any>`
-  color: black;
-
-  &[data-hovered] {
-    background-color: #f7f7f7;
-  }
 `;
 
 const StyledNavbar = styled.nav`
@@ -67,15 +57,9 @@ export const Navbar = () => {
           <JSONCrackLogo fontSize="1.2rem" />
         </Left>
         <Center>
-         
-           
-          <Menu withArrow shadow="sm">
-             
-         
-          </Menu>
+          <Menu withArrow shadow="sm"></Menu>
         </Center>
         <Right>
-        
           <Button
             radius="md"
             component="a"

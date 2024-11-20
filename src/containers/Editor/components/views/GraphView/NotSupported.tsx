@@ -1,8 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import { Button, Flex, Title, Image } from "@mantine/core";
 import styled from "styled-components";
-import { MdChevronRight } from "react-icons/md";
 
 const StyledNotSupported = styled.div`
   position: relative;
@@ -132,14 +129,6 @@ const StyledNotSupported = styled.div`
   }
 `;
 
-const StyledInfo = styled.p`
-  max-width: 500px;
-  font-weight: 600;
-  font-size: 26px;
-  text-align: center;
-  color: ${({ theme }) => theme.INTERACTIVE_NORMAL};
-`;
-
 const StyledContent = styled.div`
   position: absolute;
   left: 0;
@@ -156,11 +145,7 @@ const StyledContent = styled.div`
 export const NotSupported = () => {
   return (
     <StyledNotSupported>
-      <StyledContent>
-       
-        
-         
-      </StyledContent>
+      <StyledContent></StyledContent>
 
       <div className="glowing">
         <span></span>

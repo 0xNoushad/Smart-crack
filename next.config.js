@@ -20,6 +20,10 @@ const config = {
 
     return config;
   },
+  sentry: {
+    disableServerWebpackPlugin: true,
+    disableClientWebpackPlugin: true,
+  },
 };
 
 const bundleAnalyzerConfig = withBundleAnalyzer(config);

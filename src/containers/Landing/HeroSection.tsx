@@ -1,7 +1,6 @@
 import React from "react";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import Link from "next/link";
-import { Stack, Flex, Button, Image } from "@mantine/core";
+import { Stack, Flex, Button } from "@mantine/core";
 import styled from "styled-components";
 import { FaChevronRight } from "react-icons/fa6";
 
@@ -106,11 +105,10 @@ export const HeroSection = () => {
     <StyledHeroSection>
       <StyledHeroSectionBody>
         <Stack flex="1" miw={250} mx="auto" align="center">
-           
           <StyledHeroTitle>Visualize Smart Contract into interactive graphs</StyledHeroTitle>
           <StyledHeroText>
-            The best online SOLANA SMART CONTRACT viewer tool to <strong>visualize</strong>, <strong>format</strong>{" "}
-            and <strong>explore</strong>.
+            The best online SOLANA SMART CONTRACT viewer tool to <strong>visualize</strong>,{" "}
+            <strong>format</strong> and <strong>explore</strong>.
           </StyledHeroText>
 
           <Flex gap="xs" wrap="wrap" justify="center" hiddenFrom="xs">

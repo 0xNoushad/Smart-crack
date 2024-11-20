@@ -10,11 +10,10 @@ import {
   ThemeIcon,
   SimpleGrid,
 } from "@mantine/core";
-import { FaBolt, FaToolbox } from "react-icons/fa";
+import { FaBolt } from "react-icons/fa";
 import { IoImages, IoShieldCheckmark } from "react-icons/io5";
-import { MdOutlineFormatIndentIncrease, MdOutlineGeneratingTokens } from "react-icons/md";
+import { MdOutlineFormatIndentIncrease } from "react-icons/md";
 import { TbTransformFilled } from "react-icons/tb";
-import { VscJson } from "react-icons/vsc";
 
 interface FeatureItem {
   title: string;
@@ -45,9 +44,7 @@ const features: FeatureItem[] = [
     icon: <MdOutlineFormatIndentIncrease size={20} />,
     color: "green",
   },
-   
-   
-   
+
   {
     title: "Download Image",
     description:
@@ -63,8 +60,6 @@ const features: FeatureItem[] = [
     color: "green.4",
   },
 ];
-
-
 
 export const Features = () => {
   return (

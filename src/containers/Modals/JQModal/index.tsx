@@ -12,15 +12,9 @@ export const JQModal = ({ opened, onClose }: ModalProps) => {
     <Modal title="JSON Query" size="lg" opened={opened} onClose={onClose} centered>
       <Stack>
         <Text fz="sm">
-  SMART Crack uses simplified
-  
+          SMART Crack uses simplified
           <br />
-          <Anchor
-            fz="sm"
-            target="_blank"
-            href=" #"
-            rel="noopener noreferrer"
-          >
+          <Anchor fz="sm" target="_blank" href=" #" rel="noopener noreferrer">
             Read documentation. <VscLinkExternal />
           </Anchor>
         </Text>

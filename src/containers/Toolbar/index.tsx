@@ -1,10 +1,9 @@
 import React from "react";
-import { Text, Flex, Group, Select } from "@mantine/core";
+import { Flex, Group, Select } from "@mantine/core";
 import styled from "styled-components";
 import toast from "react-hot-toast";
 import { AiOutlineFullscreen } from "react-icons/ai";
 import { FiDownload } from "react-icons/fi";
-import { LuCrown } from "react-icons/lu";
 import { SearchInput } from "src/containers/Toolbar/SearchInput";
 import { type FileFormat, formats } from "src/enums/file.enum";
 import { JSONCrackLogo } from "src/layout/JsonCrackLogo";
@@ -87,11 +86,7 @@ export const Toolbar = ({ isWidget = false }: ToolbarProps) => {
       <Group gap="xs" justify="right" w="100%" style={{ flexWrap: "nowrap" }}>
         {!isWidget && (
           <StyledToolElement onClick={() => setVisible("upgrade")(true)} $highlight>
-            <Flex align="center" gap="6">
-              
-                 
-              
-            </Flex>
+            <Flex align="center" gap="6"></Flex>
           </StyledToolElement>
         )}
 

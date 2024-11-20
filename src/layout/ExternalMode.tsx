@@ -69,8 +69,8 @@ const ExternalMode = () => {
           <StyledTitle>Dear valued user,</StyledTitle>
           <Text>
             We would like to inform you that you are presently utilizing the external release of the{" "}
-            <Anchor href="#">SMART Crack</Anchor>. Your continued support is
-            crucial in sustaining and improving our services.
+            <Anchor href="#">SMART Crack</Anchor>. Your continued support is crucial in sustaining
+            and improving our services.
             <br />
             <br />
             We kindly encourage you to consider upgrading to the premium version, which not only

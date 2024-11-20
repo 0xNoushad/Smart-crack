@@ -5,11 +5,9 @@ import { event as gaEvent } from "nextjs-google-analytics";
 import toast from "react-hot-toast";
 import { CgChevronDown } from "react-icons/cg";
 import { FaRandom } from "react-icons/fa";
-import { FaWandMagicSparkles } from "react-icons/fa6";
-import { LuGlobe } from "react-icons/lu";
-import { MdCompare, MdFilterListAlt } from "react-icons/md";
+import { MdFilterListAlt } from "react-icons/md";
 import { SiJsonwebtokens } from "react-icons/si";
-import { VscSearchFuzzy, VscJson, VscGroupByRefType, VscLock } from "react-icons/vsc";
+import { VscSearchFuzzy, VscJson, VscGroupByRefType } from "react-icons/vsc";
 import { jsonToContent } from "src/lib/utils/jsonAdapter";
 import useFile from "src/store/useFile";
 import useJson from "src/store/useJson";
@@ -110,7 +108,6 @@ export const ToolsMenu = () => {
         <Menu.Item fz={12} leftSection={<FaRandom />} onClick={randomizeData}>
           Randomize Data
         </Menu.Item>
-        
       </Menu.Dropdown>
     </Menu>
   );
