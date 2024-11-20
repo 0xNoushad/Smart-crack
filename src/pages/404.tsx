@@ -8,7 +8,7 @@ import Layout from "src/layout/Layout";
 const NotFound = () => {
   return (
     <Layout>
-      <NextSeo {...SEO} title="404 | JSON Crack" noindex />
+      <NextSeo {...SEO} title="404 | SMART Crack" noindex />
       <Stack mt={100} justify="center" align="center">
         <Title fz={150} style={{ fontFamily: "monospace" }}>
           404

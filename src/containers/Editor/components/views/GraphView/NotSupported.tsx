@@ -157,28 +157,9 @@ export const NotSupported = () => {
   return (
     <StyledNotSupported>
       <StyledContent>
-        <Flex align="center" justify="center" gap="16" mb="lg">
-          <Image src="https://todiagram.com/logo.svg" alt="ToDiagram" w="48" h="48" />
-          <Title fz="48" style={{ pointerEvents: "none", mixBlendMode: "difference" }}>
-            ToDiagram
-          </Title>
-        </Flex>
-        <StyledInfo>
-          Use ToDiagram for larger data size, faster performance, and more features.
-        </StyledInfo>
-        <Link href="https://todiagram.com" target="_blank" passHref rel="noopener">
-          <Button
-            mt="lg"
-            size="lg"
-            fw="bolder"
-            color="#FE634E"
-            autoContrast
-            radius="md"
-            rightSection={<MdChevronRight size="24" />}
-          >
-            Go to ToDiagram
-          </Button>
-        </Link>
+       
+        
+         
       </StyledContent>
 
       <div className="glowing">

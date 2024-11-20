@@ -40,8 +40,8 @@ const Docs = () => {
     <Layout>
       <NextSeo
         {...SEO}
-        title="Documentation - JSON Crack"
-        description="Integrate JSON Crack widgets into your website."
+        title="Documentation - SMART Crack"
+        description="Integrate SMART Crack widgets into your website."
         canonical="https://jsoncrack.com/docs"
       />
       <Stack mx="auto" maw="90%">

@@ -13,35 +13,13 @@ export const Footer = () => {
       <Flex justify="space-between">
         <Stack gap={4} visibleFrom="sm">
           <JSONCrackLogo />
-          <Anchor href="mailto:contact@todiagram.com" fz="xs" c="dimmed">
-            contact@todiagram.com
-          </Anchor>
+          
         </Stack>
         <Flex gap={60} visibleFrom="sm">
           <Stack gap="xs">
-            <Text fz="sm" c="white">
-              Product
-            </Text>
-            <Anchor
-              fz="sm"
-              c="gray.5"
-              href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode"
-              rel="noopener"
-            >
-              VS Code
-            </Anchor>
-            <Anchor
-              href="https://github.com/AykutSarac/jsoncrack.com"
-              fz="sm"
-              c="gray.5"
-              target="_blank"
-              rel="noopener"
-            >
-              Open Source
-            </Anchor>
-            <Anchor href="https://todiagram.com" fz="sm" c="gray.5" rel="noopener">
-              ToDiagram
-            </Anchor>
+            
+           
+            
           </Stack>
           <Stack gap="xs">
             <Text fz="sm" c="white">
@@ -61,7 +39,7 @@ export const Footer = () => {
             <Flex gap="xs">
               <Anchor
                 aria-label="LinkedIn"
-                href="https://www.linkedin.com/company/jsoncrack"
+                href="#"
                 fz="sm"
                 rel="noopener"
               >
@@ -69,14 +47,14 @@ export const Footer = () => {
                   <FaLinkedin size={20} />
                 </ThemeIcon>
               </Anchor>
-              <Anchor aria-label="X" fz="sm" href="https://x.com/jsoncrack" rel="noopener">
+              <Anchor aria-label="X" fz="sm" href="#" rel="noopener">
                 <ThemeIcon variant="transparent" color="gray.5">
                   <FaXTwitter size={20} />
                 </ThemeIcon>
               </Anchor>
               <Anchor
                 aria-label="GitHub"
-                href="https://github.com/AykutSarac/jsoncrack.com"
+                href="#"
                 fz="sm"
                 rel="noopener"
               >
@@ -87,7 +65,7 @@ export const Footer = () => {
               <Anchor
                 aria-label="Discord"
                 fz="sm"
-                href="https://discord.com/invite/yVyTtCRueq"
+                href="#"
                 rel="noopener"
               >
                 <ThemeIcon variant="transparent" color="gray.5">
@@ -100,7 +78,7 @@ export const Footer = () => {
       </Flex>
       <Flex gap="xl">
         <Text fz="sm" c="dimmed">
-          © {dayjs().get("year")} JSON Crack
+          © {dayjs().get("year")} SMART Crack
         </Text>
         <Anchor component={Link} prefetch={false} fz="sm" c="dimmed" href="/legal/terms">
           <Text fz="sm" c="dimmed">

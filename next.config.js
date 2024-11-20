@@ -28,8 +28,8 @@ const sentryConfig = withSentryConfig(
   config,
   {
     silent: true,
-    org: "aykut-sarac",
-    project: "json-crack",
+    org: "Noushad",
+    project: "smart-crack",
   },
   {
     widenClientFileUpload: true,

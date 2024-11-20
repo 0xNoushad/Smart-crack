@@ -1,7 +1,7 @@
 {
-  "name": "JSON Crack",
-  "short_name": "JSON Crack",
-  "description": "JSON Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating JSON, CSV, YAML, XML, and more.",
+  "name": "SMART Crack",
+  "short_name": "SMART Crack",
+  "description": "SMART Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating Your Smart Contract.",
   "theme_color": "#36393e",
   "background_color": "#36393e",
   "display": "standalone",

@@ -64,30 +64,30 @@ const ExternalMode = () => {
       >
         External Host
       </Button>
-      <Modal title="External Host of JSON Crack" opened={isOpen} onClose={closeModal} centered>
+      <Modal title="External Host of SMART Crack" opened={isOpen} onClose={closeModal} centered>
         <Group>
           <StyledTitle>Dear valued user,</StyledTitle>
           <Text>
             We would like to inform you that you are presently utilizing the external release of the{" "}
-            <Anchor href="https://jsoncrack.com">JSON Crack</Anchor>. Your continued support is
+            <Anchor href="#">SMART Crack</Anchor>. Your continued support is
             crucial in sustaining and improving our services.
             <br />
             <br />
             We kindly encourage you to consider upgrading to the premium version, which not only
-            enhances your experience but also contributes to the ongoing development of JSON Crack.
+            enhances your experience but also contributes to the ongoing development of SMART Crack.
           </Text>
         </Group>
         <Group pt="lg" justify="right">
           <Button
             onClick={closeModal}
             component="a"
-            href="https://jsoncrack.com"
+            href="#"
             target="_blank"
             variant="outline"
             color="red"
             rightSection={<VscArrowRight />}
           >
-            JSON Crack
+            SMART Crack
           </Button>
         </Group>
       </Modal>

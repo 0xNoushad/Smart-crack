@@ -89,10 +89,10 @@ export const Section1 = () => {
             order={2}
             c="gray.9"
           >
-            Don&apos;t waste time with JSON formatters
+            Don&apos;t waste time with Visualization of Contracts
           </Title>
           <Text my="md" c="gray.6" fz={16} maw={510}>
-            The days of getting lost in lines of code are over. JSON Crack gives you the most
+            The days of getting lost in lines of code are over. SMART Crack gives you the most
             optimal view of your data so you can make insights faster than ever.
           </Text>
           <List
@@ -119,7 +119,7 @@ export const Section1 = () => {
           </Link>
         </Stack>
         <StyledDottedContainer>
-          <Image className="jc" src="/assets/jsoncrack.svg" alt="json crack" loading="lazy" />
+          <Image className="jc" src="/assets/jsoncrack.svg" alt="SMART Crack" loading="lazy" />
           <JsonInput
             w={273}
             rows={12}
@@ -134,12 +134,12 @@ export const Section1 = () => {
               {
                 squadName: "Super hero squad",
                 homeTown: "Metro City",
-                formed: 2016,
+                formed: 2024,
                 secretBase: "Super tower",
                 active: true,
                 members: [
                   {
-                    name: "Molecule Man",
+                    name: " Man",
                     age: 29,
                     secretIdentity: "Dan Jukes",
                   },

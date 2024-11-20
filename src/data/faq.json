@@ -1,38 +1,30 @@
 [
   {
-    "title": "What is JSON Crack and what does it do?",
-    "content": "JSON Crack is a versatile online tool designed to visualize and analyze various data formats, including JSON, YAML, CSV, XML and more. It transforms complex data into intuitive graphs and tree views, making it ideal for developers, data analysts, and anyone working with structured data."
+    "title": "What is SMART Crack and what does it do?",
+    "content": "SMART Crack is a powerful tool designed to visualize and analyze Rust-based smart contracts. It transforms complex Rust code into interactive graphs and tree views, making it ideal for developers, auditors, and anyone working with smart contract logic and execution."
   },
   {
-    "title": "Is JSON Crack free?",
-    "content": "Yes, JSON Crack is a free-forever open source online tool. For advanced features you may use ToDiagram.com"
+    "title": "Is SMART Crack free?",
+    "content": "Yes, SMART Crack is a free-to-use online tool for Rust smart contract developers."
   },
   {
     "title": "Is my data secure?",
-    "content": "Absolutely! JSON Crack prioritizes your data privacy. When you paste or import your data into the editor, it's processed only on your browser to create the visualization without going into our servers. Your data remains completely private and is never stored anywhere unless you choose to upload it manually."
+    "content": "Absolutely! SMART Crack prioritizes your data privacy. All processing, including Rust code analysis and visualization, happens locally in your browser. Your code is never sent to our servers and remains completely private."
   },
   {
-    "title": "Can I convert JSON to other formats using JSON Crack?",
-    "content": "Yes, JSON Crack offers robust data conversion capabilities. You can easily convert JSON to YAML, XML to JSON, CSV to JSON and other popular formats."
+    "title": "Can I convert Rust code to other formats using SMART Crack?",
+    "content": "Yes, SMART Crack supports converting Rust code into structured visual outputs, such as dependency graphs, execution flow diagrams, and JSON representations for easier analysis."
   },
   {
     "title": "What kind of data formats are supported?",
-    "content": "A wide range of data formats are supported including JSON, YAML, XML, CSV, and TOML."
+    "content": "SMART Crack supports raw Rust smart contract files and can also process related JSON files for contract testing or input/output visualization."
   },
   {
     "title": "What size of data can I visualize?",
-    "content": "It supports approximately 300 KB. It might vary depending on the complexity of the data and your hardware."
+    "content": "SMART Crack supports Rust files up to approximately 300 KB. The actual size may vary depending on the complexity of the code and your hardware."
   },
   {
     "title": "Can I export the generated graphs?",
-    "content": "Yes, you can export the generated graphs as PNG, JPEG, or SVG files."
-  },
-  {
-    "title": "How to use VS Code extension?",
-    "content": "You can use the VS Code extension to visualize JSON data directly in your editor. Install the extension from the VS Code marketplace and follow the instructions at extension's page."
-  },
-  {
-    "title": "I've previously subscribed to the premium plan, where did it go?",
-    "content": "We have moved the premium features to ToDiagram.com. You can use the same credentials to access the premium features or manage your subscription."
+    "content": "Yes, you can export the generated graphs as PNG, JPEG, or SVG files for sharing or documentation."
   }
 ]

@@ -57,7 +57,7 @@ export const JSONCrackLogo = ({ fontSize = "1.2rem", hideText, hideLogo, ...prop
         )}
         {!hideText && (
           <StyledTitle fontSize={fontSize} {...props}>
-            JSON CRACK
+            SMART Crack
           </StyledTitle>
         )}
       </StyledLogoWrapper>

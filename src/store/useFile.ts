@@ -9,7 +9,7 @@ import useGraph from "../containers/Editor/components/views/GraphView/stores/use
 import useConfig from "./useConfig";
 import useJson from "./useJson";
 
-const defaultJson = JSON.stringify(
+const defaultJson = JSON.stringify( 
   {
     squadName: "Super hero squad",
     homeTown: "Metro City",
@@ -18,7 +18,7 @@ const defaultJson = JSON.stringify(
     active: true,
     members: [
       {
-        name: "Molecule Man",
+        name: "Molecule",
         age: 29,
         secretIdentity: "Dan Jukes",
         powers: ["Radiation resistance", "Turning tiny", "Radiation blast"],

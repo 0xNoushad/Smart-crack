@@ -100,13 +100,7 @@ export const AuthLayout = ({ children }: React.PropsWithChildren) => {
             <Center mb="xl">
               <JSONCrackLogo fontSize="1.5rem" />
             </Center>
-            <Alert py="sm" mb="md" color="indigo" icon={<FaInfoCircle />}>
-              Premium editor has been moved to{" "}
-              <Anchor href="https://todiagram.com" inherit rel="noopener">
-                todiagram.com
-              </Anchor>
-              .
-            </Alert>
+             
             <StyledPaper>
               {children}
               <Loading />

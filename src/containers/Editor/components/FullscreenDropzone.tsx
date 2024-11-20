@@ -39,7 +39,7 @@ export const FullscreenDropzone = () => {
         <Dropzone.Accept>
           <VscFiles size={100} />
           <Text fz="h1" fw={500} mt="lg">
-            Upload to JSON Crack
+            Upload to SMART Crack
           </Text>
           <Text fz="lg" c="dimmed" mt="sm">
             (Max file size: 4 MB)
@@ -51,7 +51,7 @@ export const FullscreenDropzone = () => {
             Invalid file
           </Text>
           <Text fz="lg" c="dimmed" mt="sm">
-            Allowed formats are JSON, YAML, CSV, XML, TOML
+            Allowed formats are RUST for now.
           </Text>
         </Dropzone.Reject>
       </Group>

@@ -62,7 +62,7 @@ export const Toolbar = ({ isWidget = false }: ToolbarProps) => {
       {isWidget && <Logo />}
       {!isWidget && (
         <Group gap="xs" justify="left" w="100%" style={{ flexWrap: "nowrap" }}>
-          <StyledToolElement title="JSON Crack">
+          <StyledToolElement title="SMART Crack">
             <Flex gap="xs" align="center" justify="center">
               <JSONCrackLogo fontSize="0.8rem" hideLogo />
             </Flex>
@@ -88,10 +88,9 @@ export const Toolbar = ({ isWidget = false }: ToolbarProps) => {
         {!isWidget && (
           <StyledToolElement onClick={() => setVisible("upgrade")(true)} $highlight>
             <Flex align="center" gap="6">
-              <LuCrown size="16" />
-              <Text c="bright" fw={600} fz="xs">
-                Unlock advanced features
-              </Text>
+              
+                 
+              
             </Flex>
           </StyledToolElement>
         )}

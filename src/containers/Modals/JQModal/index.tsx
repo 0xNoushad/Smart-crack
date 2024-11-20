@@ -12,13 +12,13 @@ export const JQModal = ({ opened, onClose }: ModalProps) => {
     <Modal title="JSON Query" size="lg" opened={opened} onClose={onClose} centered>
       <Stack>
         <Text fz="sm">
-          jq is a lightweight and flexible command-line JSON processor. JSON Crack uses simplified
-          version of jq, not all features are supported.
+  SMART Crack uses simplified
+  
           <br />
           <Anchor
             fz="sm"
             target="_blank"
-            href="https://jqlang.github.io/jq/manual/"
+            href=" #"
             rel="noopener noreferrer"
           >
             Read documentation. <VscLinkExternal />

@@ -53,7 +53,7 @@ export const ToolPage = ({ from, to }: ToolPageProps) => {
     <Layout>
       <NextSeo
         {...SEO}
-        title={`${fromLabel} to ${toLabel} | JSON Crack`}
+        title={`${fromLabel} to ${toLabel} | SMART Crack`}
         canonical={`https://jsoncrack.com/converter/${from}-to-${to}`}
         description={`Convert ${fromLabel} to ${toLabel} using this free online tool. Upload your ${fromLabel} file and get the converted ${fromLabel} file instantly.`}
       />
