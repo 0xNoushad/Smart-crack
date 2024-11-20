@@ -1,4 +1,3 @@
-const { withSentryConfig } = require("@sentry/nextjs");
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
@@ -20,27 +19,6 @@ const config = {
 
     return config;
   },
-  sentry: {
-    disableServerWebpackPlugin: true,
-    disableClientWebpackPlugin: true,
-  },
 };
 
-const bundleAnalyzerConfig = withBundleAnalyzer(config);
-
-const sentryConfig = withSentryConfig(
-  config,
-  {
-    silent: true,
-    org: "Noushad",
-    project: "smart-crack",
-  },
-  {
-    widenClientFileUpload: true,
-    hideSourceMaps: true,
-    disableLogger: true,
-    disableServerWebpackPlugin: true,
-  }
-);
-
-module.exports = process.env.ANALYZE === "true" ? bundleAnalyzerConfig : sentryConfig;
+module.exports = withBundleAnalyzer(config);
