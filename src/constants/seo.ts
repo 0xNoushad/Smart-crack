@@ -9,7 +9,7 @@ export const SEO: NextSeoProps = {
     type: "website",
     images: [
       {
-        url: "https://jsoncrack.com/assets/jsoncrack.png",
+        url: "https://imgur.com/a/MYm3dW9",
         width: 1200,
         height: 627,
       },
