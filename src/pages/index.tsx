@@ -29,12 +29,21 @@ export const HomePage = (props: InferGetStaticPropsType<typeof getStaticProps>) 
 export default HomePage;
 
 export const getStaticProps = (async () => {
-  const res = await fetch("#");
-  const data = await res.json();
+  try {
+    const res = await fetch("https://api.github.com/repos/jsoncrack/jsoncrack.com");
+    const data = await res.json();
 
-  return {
-    props: {
-      stars: data.stargazers_count,
-    },
-  };
+    return {
+      props: {
+        stars: data.stargazers_count ?? 0,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching GitHub stars:", error);
+    return {
+      props: {
+        stars: 0,
+      },
+    };
+  }
 }) satisfies GetStaticProps<{ stars: number }>;
